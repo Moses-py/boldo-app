@@ -1,5 +1,5 @@
 import Button from "@/components/button/Button";
-import HeaderText from "@/components/text/HeaderText";
+import HeaderText from "@/components/typography/HeaderText";
 import Input from "./Input";
 
 const Newsletter: React.FunctionComponent = () => {

@@ -1,4 +1,4 @@
-import ParagraphText from "@/components/text/ParagraphText";
+import ParagraphText from "@/components/typography/ParagraphText";
 import Image from "next/image";
 import React from "react";
 import FooterItem from "./FooterItems";

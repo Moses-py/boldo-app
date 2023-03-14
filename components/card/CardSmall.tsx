@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ParagraphText from "../text/ParagraphText";
+import ParagraphText from "../typography/ParagraphText";
 import ProfilePic from "../../public/assets/pam_beetsley.png";
 
 const CardSmall: React.FunctionComponent = () => {

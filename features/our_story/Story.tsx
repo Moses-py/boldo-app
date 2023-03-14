@@ -1,5 +1,5 @@
-import HeaderText from "@/components/text/HeaderText";
-import ParagraphText from "@/components/text/ParagraphText";
+import HeaderText from "@/components/typography/HeaderText";
+import ParagraphText from "@/components/typography/ParagraphText";
 import Title from "@/components/title/Title";
 import React from "react";
 

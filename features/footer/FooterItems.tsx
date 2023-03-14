@@ -1,4 +1,4 @@
-import HeaderText from "@/components/text/HeaderText";
+import HeaderText from "@/components/typography/HeaderText";
 
 interface FooterItemProps {
   pill?: boolean;

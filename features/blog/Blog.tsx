@@ -1,4 +1,4 @@
-import HeaderText from "@/components/text/HeaderText";
+import HeaderText from "@/components/typography/HeaderText";
 import Title from "@/components/title/Title";
 import ArticleItem from "./ArticleItem";
 

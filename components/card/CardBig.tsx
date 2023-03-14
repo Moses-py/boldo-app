@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ParagraphText from "../text/ParagraphText";
+import ParagraphText from "../typography/ParagraphText";
 import ProfileImage from "../../public/assets/michael_scott.png";
 
 const CardBig: React.FunctionComponent = () => {

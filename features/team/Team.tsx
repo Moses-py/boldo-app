@@ -1,7 +1,7 @@
 import CardBig from "@/components/card/CardBig";
 import CardSmall from "@/components/card/CardSmall";
-import HeaderText from "@/components/text/HeaderText";
-import ParagraphText from "@/components/text/ParagraphText";
+import HeaderText from "@/components/typography/HeaderText";
+import ParagraphText from "@/components/typography/ParagraphText";
 import Title from "@/components/title/Title";
 
 const Team: React.FunctionComponent = () => {
