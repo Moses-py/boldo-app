@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
+    "./features/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
 
@@ -12,7 +12,7 @@ module.exports = {
     colors: {
       primary: "#0A2640",
       hero: "#65E4A3",
-      textSlate: "#F1F1F1",
+      slate: "#F1F1F1",
       textGrey: "#777777",
       textLight: "#FFFFFF",
       textDark: "#000000",
@@ -33,8 +33,8 @@ module.exports = {
       "2xl": "96px",
     },
     fontFamily: {
-      primary: ["Manrope", "sans - serif"],
-      secondary: ["Open Sans", "sans - serif"],
+      primary: ["var(--font-manrope)"],
+      secondary: ["var(--font-open_sans)"],
     },
     lineHeight: {
       24: "24px",
@@ -43,6 +43,7 @@ module.exports = {
       36: "36px",
       48: "48px",
       56: "56px",
+      72: "72px",
     },
     fontWeight: {
       normal: "400",

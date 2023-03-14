@@ -1,0 +1,60 @@
+.title {
+  -webkit-animation: title 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: title 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes title {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes title {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.headerFlowin {
+  -webkit-animation: headerFlowin 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.33s
+    both;
+  animation: headerFlowin 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.33s both;
+}
+
+@-webkit-keyframes headerFlowin {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes headerFlowin {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
